@@ -26,7 +26,7 @@ The ratings in this document are deliberately conservative and should be revised
 ### Competence level
 
 | Level | Description |\
-|---|---|\
+|---|---|
 | 1 - Awareness | Basic theoretical familiarity. Requires guidance for practical application. | \
 | 2 - Developing | Can perform basic tasks and understand common consepts, but experience is limited. | \
 | 3 - Independent | Can perform typical work independently and troubleshoot common problems. | \
