@@ -1,7 +1,7 @@
 # Engineering Competency map
 
-**Version:** 0.1
-**Status:** Draft
+**Version:** 0.1\
+**Status:** Draft\
 **Last updated:** 2026-09-04
 
 ## Purpose
