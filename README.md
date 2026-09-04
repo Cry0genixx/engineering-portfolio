@@ -9,11 +9,11 @@ The purpose of this portfolio is to document verifiable engineering competence t
 Projects are developed using a requirements-driven engineering workflow:
 
 Requirements:
-> Architecture
-> Design
-> Implementation
-> Verification
-> Documentation
+-> Architecture
+-> Design
+-> Implementation
+-> Verification
+-> Documentation
 
 ## Core Domains
 
