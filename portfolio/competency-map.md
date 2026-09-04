@@ -27,11 +27,11 @@ The ratings in this document are deliberately conservative and should be revised
 
 | Level | Description |\
 |---|---|\
-| 1 - Awareness | Basic theoretical familiarity. Requires guidance for practical application. | \
-| 2 - Developing | Can perform basic tasks and understand common consepts, but experience is limited. | \
-| 3 - Independent | Can perform typical work independently and troubleshoot common problems. | \
-| 4 - Advanced | Strong practical competence, good judgement and ability to solve complex problems. | \
-| 5 - Expert / Core Strength | Extensive practical experience and deep competence developed over many years. | \
+| 1 - Awareness | Basic theoretical familiarity. Requires guidance for practical application. |\
+| 2 - Developing | Can perform basic tasks and understand common consepts, but experience is limited. |\
+| 3 - Independent | Can perform typical work independently and troubleshoot common problems. |\
+| 4 - Advanced | Strong practical competence, good judgement and ability to solve complex problems. |\
+| 5 - Expert / Core Strength | Extensive practical experience and deep competence developed over many years. |\
 
 ### Evidence Level
 
