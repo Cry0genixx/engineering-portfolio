@@ -31,11 +31,12 @@ The ratings in this document are deliberately conservative and should be revised
 | 2 - Developing | Can perform basic tasks and understand common consepts, but experience is limited. |\
 | 3 - Independent | Can perform typical work independently and troubleshoot common problems. |\
 | 4 - Advanced | Strong practical competence, good judgement and ability to solve complex problems. |\
-| 5 - Expert / Core Strength | Extensive practical experience and deep competence developed over many years. |\
+| 5 - Expert / Core Strength | Extensive practical experience and deep competence developed over many years. |
 
 ### Evidence Level
 
-| Level | Description | 
+| Level | Description |
+|---|---|
 | 0 - None | No meaningful evidence currently available. | 
 | 1 - Claimed / Educational | CV entry, course, certificate or educational exposure. | 
 | 2 - Practical Evidence | Concrete work experience or project experience can be described. | 
