@@ -26,7 +26,7 @@ The ratings in this document are deliberately conservative and should be revised
 ### Competence level
 
 | Level | Description |
-|---|---|
+|---|:---|
 | 1 - Awareness | Basic theoretical familiarity. Requires guidance for practical application. |
 | 2 - Developing | Can perform basic tasks and understand common consepts, but experience is limited. |
 | 3 - Independent | Can perform typical work independently and troubleshoot common problems. |
@@ -36,7 +36,7 @@ The ratings in this document are deliberately conservative and should be revised
 ### Evidence Level
 
 | Level | Description |
-|---|---|
+|---|:---|
 | 0 - None | No meaningful evidence currently available. | 
 | 1 - Claimed / Educational | CV entry, course, certificate or educational exposure. | 
 | 2 - Practical Evidence | Concrete work experience or project experience can be described. | 
@@ -53,7 +53,7 @@ The ratings in this document are deliberately conservative and should be revised
 ## 1. Manufacturing & CNC
 
 | Competency | Competence | Evidence | Gap | Priority | 
-|---|---:|---:|---|---|
+|---|---:|---:|:---|---|
 | CNC machining | 5/5 | 3/4 | Publicly reviewable engineering case. | P3 | 
 | G-code / NC programming | 5/5 | 3/4 | Structured example demonstrating advanced application. | P3 | 
 | 3-axis machining | 5/5 | 3/4 | Limited need for further evidence. | P3 | 
@@ -79,3 +79,62 @@ Particular emphasis should be placed on DFM, fixturing, tolerance strategy and i
 ---
 
 ## 2. Mechanical Engineering & CAD
+
+| Competency | Competence | Evidence | Gap | Priority |
+|---|---:|---:|:---|---|
+| Parametric CAD | 4-5/5 | 3/4 | Advanced public case | P2 | 
+| SOLIDWORKS | 4-5/5 | 3/4 | Portfolio-scale system design | P2 | 
+| Autodesk Inventor | 3-4/5 | 2-3/4 | Advanced electromechanical application | P1 | 
+| Assembly design | 4/5 | 3/4 | Complex system assembly | P1 | 
+| Technical drawings | 4/5 | 2-3/4 | Portfolio-standard drawing package | P1 | 
+| GD&T / Tolerance specification | 3-4/5 | 2/4 | Explicit engineering example | P1 | 
+| Mechanical design | 4/5 | 3/4 | Integrated mechatronic design case | P1 | 
+| Material selection | 3/5 | 2/4 | Documented engineering trade-off | P2 | 
+| Machine element selection | 3/5 | 2/4 | P1 | 
+| FEA / Structural simulation | 2-3/5 | 1-2/4 | Verified analysis project | **P0** | 
+| Mechanism design | 3/5 | 2/4 | Dynamic/mechanical system example | P1 | 
+| Cable and harness design | 1-2/5 | 0-1/4 | Complete electromechanical routing project | **P0** | 
+| CAD-to-manufacturing workflow | 4/5 | 2-3/4 | Fully documented digital thread | P1 | 
+
+### Domain Assessment
+
+Mechanical engineering is already a strong area, but several elements commonly expected in broader engineering roles require stronger evidence.
+
+The portfolio should emphasize:
+
+* analysis,
+* engineering justification,
+* tolerance strategy,
+* electromechanical integration,
+* and design decisions.
+
+Pure CAD screenshots alone should not be considered sufficient evidence.
+
+---
+
+## 3. Industrial Automation & PLC
+
+| Competency | Competence | Evidence | Gap | Priority | 
+|---|---:|---:|:---|---|
+| PLC fundamentals | 2-3/5 | 1-2/4 | Complete application | **P0** | 
+| Siements TIA Portal | 2-3/5 | 1-2/4 | Structured machine project | **P0** | 
+| CODESYS | 2/5 | 1/4 | Practical IEC 61131-3 implementation | P1 | 
+| Mitsubishi GX Works | 1-2/5 | 0-1/4 | Practical project | P2 | 
+| Structured Text | 2/5 | 1/4 | Maintainable real application | **P0** |
+| Ladder Logic | 2-3/5 | 1-2/4 | Structured machine logic | P1 | 
+| Function Blocks | 2/5 | 1/4 | Reusable control architecture | **P0** | 
+| State machines | 2-3/5 | 1/4 | Diagram -> code -> verification | **P0** | 
+| Sequence control | 2-3/5 | 1-2/4 | Integrated machine sequence | **P0** | 
+| Operating modes | 1-2/5 | 0-1/4 | Manual/Auto/Service architecture | **P0** | 
+| Interlocks and permissives | 2/5 | 1/4 | Documented implementation | **P0** | 
+| Fault handling | 1-2/5 | 0-1/4 | Structured diagnostic system | **P0** | 
+| Alarm management | 1-2/5 | 0-1/4 | HMI-integrated alarm philosophy | P1 | 
+| PLC simulation | 2/5 | 1/4 | Formal virtual verification | **P0** | 
+| Reusable software architecture | 1-2/5 | 0-1/4 | Modular library-based design | **P0** | 
+
+### Domain Assessment
+
+This is one of the most important development areas.
+
+Future projects should prove competence beyond basic PLC exercises and demonstrate:
+> architecture -> Implementation -> diagnostics -> verification.
