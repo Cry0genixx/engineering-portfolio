@@ -2,6 +2,7 @@
 
 **Version:** 0.1
 **Status:** Draft
+**Date Created:** 2026-09-05
 **Last Updated:** 2026-09-05
 
 ##Purpose
@@ -1445,31 +1446,122 @@ Every completed project shall document:
 
 ## GIT-001 - Version Control
 
+**Priority:** P0\
+**Status:** In Development
 
+### Required evidence
 
+Projects shall use Git consistently.
 
+Evidence should naturally emerge through:
 
+* meaningful commits,
+* development history,
+* revision tags,
+* project releases.
 
+---
 
+## GIT-002 - Versioning
 
+**Priority:** P1\
+**Status:** Planned
 
+Suggested lifecycle:
 
+> v0.1 - Requirements\
+> v0.2 - Architecture\
+> v0.3 - Initial Implementation\
+> v0.4 - Integration\
+> v0.5 - Verification\
+> v1.0 - Verified Portfolio Release
 
+Version numbers should represent meaningful project maturity rather than arbitrary dates.
 
+---
 
+# 18. Initial Project-to-Evidence Mapping
 
+| Evidence Area | LAB-001 | LAB-002 | LAB-003 | LAB-004 | LAB-005 | FLAGSHIP-001 | 
+|:---|---|---|---|---|---|---|
+| Problem definition | ● | ● | ● | ● | ● | ● |
+| Requirements | ● | ● | ● | ● | ● | ● | 
+| System architecture | ● | ○ | ○ | ● | ● | ● |
+| PLC architecture | ● | ○ | ● | ○ | ● | ● | 
+| State machine | ● | ○ | ● | ○ | ● | ● |
+| HMI | ○ | ● | ○ | ○ | ○ | ● | 
+| Alarm handling | ● | ● | ● | ○ | ● | ● | 
+| Electrical design | ○ | ○ | ● | ○ | ○ | ● |
+| Pneumatics | — | — | ● | — | — | ● |
+| Robot integration | — | — | — | — | ● | ● |
+| Industrial networking | ○ | ○ | ○ | ● | ● | ● | 
+| OPC UA | — | — | — | ● | — | ● | 
+| SCADA / Ignition | — | — | — | ● | — | ● | 
+| Mechanical design | — | — | ○ | — | ○ | ● | 
+| CNC / Manufacturing | — | — | ○ | — | — | ● | 
+| DFM | — | — | ○ | — | — | ● | 
+| Verification | ● | ● | ● | ● | ● | ● |
+| Fault injection | ● | ● | ● | ● | ● | ● | 
+| Technical documentation | ● | ● | ● | ● | ● | ● |
 
+Legend:
 
+* ● = primary evidence
+* ● = meaningful supporting evidence
+* ○ = secondary or optional evidence
+* — = not expected
 
+---
 
+# 19. Initial Portfolio Verification Targets
 
+The first portfolio development phase should prioritize achieving Portfolio Verified evidence in the following areas:
 
+1. Requirements engineering
+2. PLC architecture
+3. State machine
+4. Operating modes
+5. Interlocks and permissives
+6. Fault handling
+7. Verification methodology
+8. HMI architecture
+9. Electrical documentation
+10. Industrial communication
+11. Robot-machine integration
+12. OPC UA / SCADA
+13. Systems architecture
+14. Techincal documentation
+15. Git-based revision control
 
+Existing strenghts in manufacturing, CNC and mechanical engineering should the be integrated with new verified competencies in the first flagship project.
 
+---
 
+# 20. Evidence Development Principle
 
+Projects should not be created because a particular software package is available.
 
+Projects should be created because an important competency requires stronger evidence.
 
+Software is selected only after the engineering objective has been defined.
 
+The preferred sequence is:
 
+> Competency Gap
+>   |\
+> Required Evidence\
+>   |\
+> Engineering Problem\
+>   |\
+> Project\
+>   |\
+> Tool Selection\
+>   |\
+> Implementation\
+>   |\
+> Verification\
+>   |\
+> Portfolio Evidence\
+
+This sequence shall guide future portfolio development.
 
