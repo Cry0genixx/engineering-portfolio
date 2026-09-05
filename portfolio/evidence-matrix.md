@@ -872,11 +872,578 @@ The design demonstrates understanding of why industrial devices are connected in
 
 ---
 
+## NET-002 - Profinet Integration
 
+**Priority:** P0\
+**Toolchain:** TIA Portal\
+**Status:** Planned
 
+### Evidence
 
+A Siemens-based system shall demonstrate practical Profinet configuration where technically feasible within the simulation environment.
 
+Documentation should include:
 
+* participating devices,
+* logical device names,
+* addressing,
+* cyclic I/O relationship,
+* diagnostics.
+
+---
+
+## NET-003 - Modbus TCP
+
+**Priority:** P0\
+**Toolchain:** PLC / Python / suitable simulation\
+**Status:** Planned
+
+### Evidence
+
+Working Modbus TCP communication between at leat two software components.
+
+### Include
+
+* client/server roles,
+* register mapping,
+* data types,
+* communication failure handling,
+* test results.
+
+---
+
+## NET-004 - OPC UA
+
+**Priority:** P0\
+**Toolchain:** TIA Portal + Ignition / Python\
+**Target:** LAB-004\
+**Status:** Planned
+
+### Required evidence
+
+Data shall be transferred from control-system level to a higher-level application.
+
+Possible architecture:
+
+> PLC\
+>  |\
+> OPC UA\
+>  |\
+> Ignition\
+>  |\
+> Historian / Dashboard
+
+### Data examples
+
+* machine state,
+* production count,
+* cycle time,
+* active fault,
+* sensor values.
+
+### Portfolio Verified when
+
+The complete data path is documented and verified.
+
+---
+
+## NET-005 - IT/OT Architecture
+
+**Priority:** P0\
+**Status:** Planned
+
+### Required evidence
+
+At least one project shall explicitly distinguish between:
+
+* machine network
+* OT supervisory systems,
+* higher-level IT/data systems,
+
+### Evidence
+
+* architecture,
+* purpose of each network zone,
+* data direction,
+* protocol selection,
+* segmentation rationale.
+
+---
+
+# 11. SCADA & Industrial Data Evidence
+
+## SCADA-001 - Ignition Integration
+
+**Priority:** P0\
+**Target:** LAB-004\
+**Status:** Planned
+
+### Required evidence
+
+Ignition shall communicate with a simulated or real industrial control system.
+
+### Include
+
+* tag structure,
+* connection architecture,
+* machine state,
+* alarms,
+* data visualization.
+
+---
+
+## SCADA-002 - Production Dashboard
+
+**Priority:** P1\
+**Status:** Planned
+
+### Evidence
+
+Dashboard using meaningful production information.
+
+Potential KPIs:
+
+* part count,
+* cycle time,
+* machine state,
+* downtime,
+* fault count,
+* availability.
+
+The objective is not visual appearance alone, but technically meaningful representation of machine behaviour.
+
+---
+
+## SCADA-003 - Historian / Trends
+
+**Priority:** P1\
+**Status:** Planned
+
+### Evidence
+
+Time-series data shall be stored and used to analyse system behaviour.
+
+Possible applications:
+
+* cycle-time variation,
+* sensor trends,
+* fault history,
+* machine-state timeline.
+
+---
+
+# 12. Mechanical Engineering Evidence
+
+## MECH-001 - Integrated Mechanical Design
+
+**Priority:** P1\
+**Toolchain:** SOLIDWORKS / Inventor\
+**Status:** Planned
+
+### Required evidence
+
+A mechanical assembly designed as part of a functional engineered system.
+
+### Include
+
+* design intent,
+* assembly model,
+* interfaces,
+* manufacturing considerations,
+* technical drawings.
+
+---
+
+## MECH-002 - DFM Analysis
+
+**Priority:** P0\
+**Status:** Planned
+
+### Required evidence
+
+A component or assembly shall include explicit manufacturability analysis.
+
+### Include
+
+* manufacturing method,
+* setup strategy,
+* tolerances,
+* tooling/access,
+* machining constraints,
+* cost/time implications where reasonable.
+
+### Portfolio Verified when
+
+The project clearly demonstrates how manufacturing experience affected the design.
+
+---
+
+## MECH-003 - Fixture / Workholding Design
+
+**Priority:** P1\
+**Status:** Planned
+
+### Required evidence
+
+A production fixture or workholding concept.
+
+### Include
+
+* locating strategy,
+* clamping,
+* accessibility,
+* repeatability,
+* tolerances,
+* machining/process force where relevant,
+* operator/automation access.
+
+---
+
+## MECH-004 - FEA / Structural Verification
+
+**Priority:** P0\
+**Status:** Planned
+
+### Required evidence
+
+A structural analysis linked to an actual design decision.
+
+### Include
+
+* loading assumptions,
+* boundary conditions,
+* material,
+* mesh considerations,
+* results,
+* interpretation,
+* limitations.
+
+### Important rule
+
+FEA screenshots without explanation or validation are not sufficient evidence.
+
+---
+
+## MECH-005 - Digital Manufacturing Workflow
+
+**Priority:** P1\
+**Toolchain:** SOLIDWORKS / Inventor / Fusion
+**Status:** Planned
+
+### Evidence chain
+
+> Requirements\
+>  |\
+> CAD\
+>  |\
+> Drawing\
+>  |\
+> CAM\
+>  |\
+> Toolpath\
+>  |\
+> Simulation\
+>  |\
+> Inspection strategy\
+
+This evidence should connect mechanical design directly to manufacturing.
+
+---
+
+# 13. Electronics & Embedded Evidence
+
+## EMB-001 - Microcontroller Application
+
+**Priority:** P0\
+**Status:** Future
+
+### Required evidence
+
+A microcontroller-based system solving a defined mechatronics problem.
+
+Potential examples:
+
+* sensor acquisition,
+* actuator control,
+* signal conditioning,
+* communication gateway.
+
+---
+
+## PCB-001 Industrial Sensor Interface PCB
+
+**Priority:** P1\
+**Toolchain:** KiCad\
+**Status:** Future
+
+### Required evidence
+
+A complete PCB design.
+
+### Include
+
+* requirements,
+* schematic,
+* component selection,
+* PCB layout,
+* connectors,
+* protection,
+* power architecture,
+* design rules,
+* BOM,
+* manufacturing outputs,
+* 3D representation.
+
+Where physical manufacture is performed, measurements and test results should also be included.
+
+---
+
+## PCB-002 - EMC / EMI Design Considerations
+
+**Priority:** P1\
+**Status:** Future
+
+### Evidence
+
+PCB documentation shall explain relevant considerations such as:
+
+* decoupling,
+* grounding,
+* signal routing,
+* separation,
+* filtering,
+* protection,
+* industrial electrical noise.
+
+---
+
+# 14. Python & Engineering Software Evidence
+
+## SW-001 - Engineering Data Tool
+
+**Priority:** P1\
+**Toolchain:** Python / VS Code / Anaconda\
+**Status:** Planned
+
+### Required evidence
+
+Python shall be used to solve a genuine engineering problem.
+
+Examples:
+
+* process data analysis,
+* automatic plotting,
+* test-result analysis,
+* cycle-time statistics,
+* sensor processing.
+
+---
+
+## SW-002 - Automated Verification
+
+**Priority:** P0\
+**Status:** Planned
+
+### Required evidence
+
+At least one project should use software to automate part of the verification process.
+
+Possible functions:
+
+* generate test inputs,
+* read controller values,
+* compare expected/actual results,
+* create pass/fail report.
+
+### Portfolio Verified when
+
+Automated testing meaningfully improves repeatability or traceability.
+
+---
+
+## SW-003 - Industrial Protocol Client
+
+**Priority:** P1\
+**Status:** Planned
+
+### Possible implementations
+
+Python client for:
+
+* OPC UA,
+* Modbus TCP,
+* MQTT.
+
+### Evidence
+
+* source code,
+* configuration,
+* data flow,
+* failure handling,
+* test.
+
+---
+
+# 15. Verification & Validation Evidence
+
+## VNV-001 - Verification Plan
+
+**Priority:** P0\
+**Target:** LAV-001 onward\
+**Status:** Planned
+
+### Required evidence
+
+Important requirements shall have an identified verification method.
+
+Example:
+
+| Requirements | Verification Method | Acceptance Criterion | 
+|:---|:---|:---|
+| FR-001 | Functional test | Manual and Automatic modes selectable | 
+| FR-002 | Fault injection | Auto start rejected without permissives | 
+| FR-003 | Simulation | Machine enters FAULT when process timeout occurs | 
+
+---
+
+## VNV-002 - Test Cases
+
+**Priority:** P0\
+**Status:** Planned
+
+Each test shall include: 
+
+* Test ID
+* Requirement reference
+* Initial conditions
+* Test procedure
+* Expected result
+* Actual result
+* Pass / Fail
+* Notes
+
+---
+
+## VNV-003 - Fault Injection Testing
+
+**Priority:** P0\
+**Status:** Planned
+
+Systems shall deliberately be tested under abnormal conditions.
+
+Examples:
+
+* sensor failure,
+* communication failure,
+* actuator timeout,
+* invalid sequence,
+* missing permissive,
+* robot fault.
+
+Portfolio evidence should demonstrate not only successful operation but controlled failure behaviour.
+
+---
+
+## VNV-004 - Verification Report
+
+**Priority:** P0\
+**Status:** Planned
+
+### Evidence
+
+Final project verification report containing:
+
+* test summary,
+* pass/fail status,
+* deviations,
+* unresolved issues,
+* limitations,
+* recommandations.
+
+---
+
+# 16. Technical Documentation Evidence
+
+## DOC-001 - Project README
+
+**Priority:** P0\
+**Status:** Planned
+
+Every public project shall contain a high-quality README covering:
+
+* project objective,
+* engineering context,
+* system overview,
+* technologies,
+* architecture,
+* key results,
+* project status,
+* links to detailed documentation.
+
+---
+
+## DOC-002 - Functional Description
+
+**Priority:** P0\
+**Status:** Planned
+
+Major automated systems shall include a functional description explaining how the system behaves during:
+
+* startup,
+* normal operation,
+* shutdown,
+* faults,
+* reset,
+* recovery.
+
+---
+
+## DOC-003 - Engineering Decision Records
+
+**Priority:** P1\
+**Status:** Planned
+
+Important technical decisions should be recovered.
+
+Suggested format:
+
+> ADR-001 - PLC State Architecture\
+> \
+> Context:\
+> What decision was required?\
+> \
+> Options:\
+> What alternatives were considered?\
+> \
+> Decision:\
+> What was selected?\
+> \
+> Rationale:\
+> Why?\
+>\
+> Consequences:\
+> What are the benefits and disadvantages?
+
+---
+
+## DOC-004 - Lessons Learned
+
+**Priority:** P0\
+**Status:** Planned
+
+Every completed project shall document:
+
+* what worked,
+* what failed,
+* what was unexpectedly difficult,
+* what was learned,
+* what would change in Revision 2.
+
+---
+
+# 17. Git & Portfolio Traceablility Evidence
+
+## GIT-001 - Version Control
 
 
 
