@@ -143,8 +143,8 @@ The project shall clearly distinguish between:
 
 ## SE-001 - Problem Definition
 
-**Target competency:** Problem defition
-**Priority:** P0
+**Target competency:** Problem defition\
+**Priority:** P0\
 **Status:** Planned
 
 ### Required evidence
@@ -179,8 +179,8 @@ An external reviewer can understand:
 
 ## SE-002 - Requirements Engineering
 
-**Target competency:** Requirements engineering
-**Priority:** P0
+**Target competency:** Requirements engineering\
+**Priority:** P0\
 **Status:** Planned
 
 ### Required evidence
@@ -224,8 +224,8 @@ Requirements are:
 
 ## SE-003 - Functional Decomposition
 
-**Target competency:** Functional decomposition
-**Priority:** P0
+**Target competency:** Functional decomposition\
+**Priority:** P0\
 **Status:** Planned
 
 ### Required evidence
@@ -260,8 +260,8 @@ The decomposition clearly separates relevant functions such as:
 
 ## SE-004 - System Architecture
 
-**Target competency:** System architecture
-**Priority:** P0
+**Target competency:** System architecture\
+**Priority:** P0\
 **Status:** Planned
 
 ### Required evidence
@@ -291,8 +291,8 @@ A technical reviewer can understand the system without first reading source code
 ## SE-005 - Interface Definition
 
 
-**Target competency:** Interface design
-**Priority:** P0
+**Target competency:** Interface design\
+**Priority:** P0\
 **Status:** Planned
 
 ### Required evidence
@@ -331,8 +331,8 @@ The expected behaviour of both sides of an interface is clearly documented and t
 
 ## SE-006 - Engineering Trade-Off Analysis
 
-**Target competency:** Engineering decision-making
-**Priority:** P0
+**Target competency:** Engineering decision-making\
+**Priority:** P0\
 **Status:** Planned
 
 ### Required evidence
